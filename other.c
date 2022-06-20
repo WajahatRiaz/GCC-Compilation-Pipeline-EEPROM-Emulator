@@ -1,5 +1,4 @@
 #include "header.h"
-#include "stdio.h"
 
 
 void write(uint8_t *address, uint8_t data, int offset){
