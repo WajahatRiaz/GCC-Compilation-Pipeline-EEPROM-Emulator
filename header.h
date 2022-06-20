@@ -1,4 +1,6 @@
-// this is a user-defined header file which has a forward declaration
 
-double average(int a, int b);
+#include <stdint.h>
 
+void write(uint8_t*, uint8_t, int );
+
+void read(uint8_t*, uint8_t, int );

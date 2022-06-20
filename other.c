@@ -1,10 +1,15 @@
-//source file containing the defination of the 
-// user-defined function 
-
 #include "header.h"
+#include "stdio.h"
 
-double average (int a, int b){
-    double answer;
-    answer=(double) (a+b)/2;
-    return answer;
+
+void write(uint8_t *address, uint8_t data, int offset){
+    address+=offset;
+    *address=data;
+    printf("WRITE-> %p: %d \n",address,*address);
+}
+
+void read(uint8_t *address, uint8_t data,int offset ){
+    address+=offset;
+    data=*address;
+    printf("READ-> %p: %d \n",address,*address);
 }
