@@ -14,9 +14,9 @@ LFB10:
 	andl	$-16, %esp
 	subl	$48, %esp
 	call	___main
-	movb	$58, 20(%esp)
-	movb	$38, 21(%esp)
-	movb	$39, 22(%esp)
+	movb	$3, 20(%esp)
+	movb	$6, 21(%esp)
+	movb	$7, 22(%esp)
 	movb	$8, 23(%esp)
 	leal	28(%esp), %eax
 	movl	%eax, 32(%esp)

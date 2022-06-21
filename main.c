@@ -7,7 +7,7 @@ int main(){
 
     uint8_t table [SIZE];
     uint8_t rx_buffer[SIZE];
-    uint8_t tx_buffer[SIZE]={0x3a,0x26,0x27,8};
+    uint8_t tx_buffer[SIZE]={3,6,7,8};
     uint8_t *ptr= &table[0];
     int offset=0;
     
