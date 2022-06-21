@@ -7,7 +7,7 @@ When we convert a humand readable source code into a machine understandable bina
 3) Assembler
 4) Linker
 
-![image](https://user-images.githubusercontent.com/61377755/174866211-bfecf402-0fe6-43e9-a1f2-b8d42855c4d7.png)
+![image](https://user-images.githubusercontent.com/61377755/174867256-d2158a0e-a5b2-404f-9ac9-381572c23e2a.png)
 
 ## Preprocessor 
 **Step 1**: generating the translation unit
